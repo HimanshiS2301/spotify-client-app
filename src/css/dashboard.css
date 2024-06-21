@@ -1,0 +1,108 @@
+body {
+  background: #fff;
+}
+
+.row.content {
+  height: 945px;
+}
+.sidenav {
+  background-color: #000;
+  height: 100%;
+  padding: 0 !important;
+  font-size: 16px;
+  color: #fff;
+}
+
+.sidenav ul li.active a {
+  background-color: #313131;
+  border-radius: 0;
+  color: #fff;
+}
+
+.sidenav ul li.active a:hover {
+    background-color: #FFF;
+    border-radius: 0;
+    color: #000;
+  }
+
+.sidenav ul li a {
+  color: #fff;
+  font-weight: 700;
+  padding: 15px;
+}
+
+.sidenav ul li a:hover {
+  background: #232323;
+}
+
+.sidenav .playlist-label {
+  background: #232323;
+  padding: 8px;
+  width: 70px;
+  border-radius: 25px;
+}
+
+.sidenav ul.playlists-display li {
+  padding: 10px;
+}
+.sidenav ul.playlists-display li:hover {
+  background: #232323;
+}
+
+.sidenav ul.playlists-display span {
+  display: inline-block;
+  white-space: nowrap;
+  width: 150px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.dashboard-page {
+  background: #1e1e1e;
+  color: #fff;
+}
+
+.dashboard-page .profile-section {
+  background-image: linear-gradient(#515151, #2e2e2e);
+  border: 0;
+  color: #fff;
+  padding: 65px;
+}
+
+.dashboard-page .profile-section p {
+  font-size: 75px;
+  font-weight: 700;
+}
+
+.dashboard-page .playlists-cards .card-img-top {
+  border-radius: 10px;
+}
+
+.dashboard-page .playlists-cards p.card-text {
+  color: #fff !important;
+  display: inline-block;
+  white-space: nowrap;
+  width: 175px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 15px;
+}
+
+.dashboard-page .card {
+  position: relative;
+}
+
+.card-body img.play-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 60%;
+}
