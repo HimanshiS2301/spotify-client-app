@@ -6,7 +6,7 @@ import spotifyLogo from "../images/spotifyImage.png";
 
 const SPOTIFY_CLIENT_ID = "9c50e68cba364879bb25bc2e22d0d42a";
 const SPOTIFY_CLIENT_SECRET = "fd092930c54441908f3ba24071c1969e";
-const SPOTIFY_REDIRECT_URI = "http://localhost:3000/callback";
+const SPOTIFY_REDIRECT_URI = "https://sspotify-client.netlify.app";
 
 const Auth: React.FC = () => {
   const navigate = useNavigate();
